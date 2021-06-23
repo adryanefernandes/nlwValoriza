@@ -20,5 +20,5 @@ app.use((err: Error, req: Request, res: Response, next: NextFunction) => {
 });
 
 app.listen(3003, () => {
-  console.log("Servis is running in http://localhost:3003");
+  console.log("Server is running in http://localhost:3003");
 });
